@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# React App for Template Conversion
+
+I have included the template code if you wanna have a look in _template_
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
