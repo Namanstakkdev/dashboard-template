@@ -1,15 +1,26 @@
+import "./App.css";
+import Dashboard from "./components/Dashboard/Dashboard";
+import NavBar from "./components/NavBar/NavBar";
 import Loader from "./components/loader/Loader";
+import PushMenu from "./components/pushmenu/pushmenu";
 import Sidebar from "./components/sidebar/Sidebar";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
-import $ from "jquery";
-import Popper from "popper.js";
 
 function App() {
   return (
     <>
-      <Loader />
-      <Sidebar />
+      {/* <Loader /> */}
+
+      <div id="app">
+        <aside
+          class="main-sidebar fixed offcanvas b-r sidebar-tabs"
+          data-toggle="offcanvas"
+        >
+          <Sidebar />
+          <PushMenu />
+        </aside>
+        <NavBar />
+        <Dashboard />
+      </div>
     </>
   );
 }
