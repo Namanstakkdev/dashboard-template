@@ -1,0 +1,113 @@
+.card-header{
+    align-items: center;
+}
+
+.sub-card-header__ctn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 55%;
+}
+
+.inbox__search-ctn {
+    margin-right: 15px;
+    width: 100%;
+}
+
+.inbox__search-input{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.inbox__card-footer{
+    background-color: #ecf0f5;
+    padding: 0;
+}
+
+.title-header-ctn,
+.content__ctn{
+    display: none;
+}
+
+#inbox__title-header-ctn.active,
+#starred__title-header-ctn.active,
+#sent__title-header-ctn.active,
+#trash__title-header-ctn.active,
+#important__title-header-ctn.active,
+#promotion__title-header-ctn.active,
+#social__title-header-ctn.active{
+    display: block !important;
+}
+
+#inbox__ctn.active,
+#starred__ctn.active,
+#sent__ctn.active,
+#trash__ctn.active,
+#important__ctn.active,
+#promotion__ctn.active,
+#social__ctn.active{
+    display: block !important;
+}
+
+.read-message__ctn,
+.new-message__ctn {
+    position: fixed;
+    right: 0;
+    float: right;
+    top: 0;
+    z-index: 10;
+    width: 75%;
+    bottom: 0;
+    height: 100vh;
+    overflow: auto;
+    background: #fff;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: all .5s ease;
+}
+
+.read-message__close-btn {
+    border: inherit;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px 25px;
+    z-index: 1;
+    background: inherit;
+    font-size: 1.2em;
+}
+
+.read-message__ctn.read-msg-read__active,
+.new-message__ctn.new-msg-compose__active{
+    display: flex !important;
+    transform: translateX(0);
+}
+
+.full__ctn.under__read-message:before,
+.full__ctn.under__compose-message:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, .6);
+    z-index: 10;
+    left: 0;
+}
+
+
+#cancelComposeMsgBtn:hover {
+    background: #dbdbdb;
+    color: #fff;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.a-inline__ctn {
+    display: flex;
+    flex-direction: column;
+}
