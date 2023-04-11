@@ -11,15 +11,10 @@ function App() {
       {/* <Loader /> */}
 
       <div id="app">
-        <aside
-          class="main-sidebar fixed offcanvas b-r sidebar-tabs"
-          data-toggle="offcanvas"
-        >
-          <Sidebar />
-          <PushMenu />
-        </aside>
+        <Sidebar />
+        {/* <PushMenu /> */}
         <NavBar />
-        <Dashboard />
+        {/* <Dashboard /> */}
       </div>
     </>
   );
