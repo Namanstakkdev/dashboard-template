@@ -1,0 +1,49 @@
+{
+  "header":{
+    "title":"New Panel",
+    "button":[
+      
+    ],
+    "icon":"New Panel",
+    "html":""
+  },
+  "menus":[
+    {
+      "key": "boxicon",
+      "title": "Box Icon",
+      "order": 1,
+      "icon": "inbox-2",
+      "icons": [],
+      "attributes": {
+        "class": "",
+        "id": "",
+        "href": "#"
+      },
+      "caps": ["level_1", "level_2"],
+      "roles": ["admin", "guest"],
+      "submenus": [
+        
+        {
+          "key": "dashboard",
+          "title": "Dashboard",
+          "order": 1,
+          "icon": "inbox-2",
+          "icons": [],
+          "attributes": {
+            "class": "",
+            "id": "",
+            "href": "#"
+          },
+          "caps": ["level_89", "level_0"],
+          "roles": ["admin", "guest"],
+          "submenus": []
+        }
+      ]
+    }
+  ],
+  "footer":{
+    "title":"New Panel",
+    "html":"New"
+  }
+}
+

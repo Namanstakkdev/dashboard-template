@@ -1,0 +1,334 @@
+{
+  "header": {
+    "title": "PushMenu",
+    "button": [],
+    "icon": "paper-nav-toggle left ml-2 fixed",
+    "html": ""
+  },
+  "menus": [
+    {
+      "key": "home",
+      "title": "Home Icon",
+      "order": 1,
+      "icon": "inbox-2",
+      "icons": ["icon", "inbox2"],
+      "attributes": {
+        "class": "v-pills-home",
+        "id": "v-pills-home-tab",
+        "href": "#"
+      },
+      "caps": ["level_1", "level_2"],
+      "roles": ["admin", "guest"],
+      "submenus": [
+        {
+          "key": "dashboard",
+          "title": "Dashboard",
+          "order": 1,
+          "icon": "inbox-2",
+          "icons": ["icon", "icon-sailing-boat-water s-24"],
+          "attributes": {
+            "class": "",
+            "id": "",
+            "href": "#"
+          },
+          "caps": ["level_89", "level_0"],
+          "roles": ["admin", "guest"],
+          "submenus": [
+            {
+              "key": "panel_dashboard_1",
+              "title": "Panel Dashboard 1",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            },
+            {
+              "key": "panel_dashboard_1_RTL",
+              "title": "Panel Dashboard 1 - RTL",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            },
+            {
+              "key": "panel_dashboard_2",
+              "title": "Panel Dashboard 2",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            },
+            {
+              "key": "panel_dashboard_3",
+              "title": "Panel Dashboard 3",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "home",
+      "title": "Home Icon",
+      "order": 1,
+      "icon": "inbox-2",
+      "icons": ["icon", "inbox2"],
+      "attributes": {
+        "class": "v-pills-home",
+        "id": "v-pills-home-tab",
+        "href": "#"
+      },
+      "caps": ["level_1", "level_2"],
+      "roles": ["admin", "guest"],
+      "submenus": [
+        {
+          "key": "dashboard",
+          "title": "Dashboard",
+          "order": 1,
+          "icon": "inbox-2",
+          "icons": ["icon", "icon-sailing-boat-water s-24"],
+          "attributes": {
+            "class": "",
+            "id": "",
+            "href": "#"
+          },
+          "caps": ["level_89", "level_0"],
+          "roles": ["admin", "guest"],
+          "submenus": [
+            {
+              "key": "panel_dashboard_1",
+              "title": "Panel Dashboard 1",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            },
+            {
+              "key": "panel_dashboard_1_RTL",
+              "title": "Panel Dashboard 1 - RTL",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            },
+            {
+              "key": "panel_dashboard_2",
+              "title": "Panel Dashboard 2",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            },
+            {
+              "key": "panel_dashboard_3",
+              "title": "Panel Dashboard 3",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "home",
+      "title": "Home Icon",
+      "order": 1,
+      "icon": "inbox-2",
+      "icons": ["icon", "inbox2"],
+      "attributes": {
+        "class": "v-pills-home",
+        "id": "v-pills-home-tab",
+        "href": "#"
+      },
+      "caps": ["level_1", "level_2"],
+      "roles": ["admin", "guest"],
+      "submenus": [
+        {
+          "key": "dashboard",
+          "title": "Dashboard",
+          "order": 1,
+          "icon": "inbox-2",
+          "icons": ["icon", "icon-sailing-boat-water s-24"],
+          "attributes": {
+            "class": "",
+            "id": "",
+            "href": "#"
+          },
+          "caps": ["level_89", "level_0"],
+          "roles": ["admin", "guest"],
+          "submenus": [
+            {
+              "key": "panel_dashboard_1",
+              "title": "Panel Dashboard 1",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            },
+            {
+              "key": "panel_dashboard_1_RTL",
+              "title": "Panel Dashboard 1 - RTL",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            },
+            {
+              "key": "panel_dashboard_2",
+              "title": "Panel Dashboard 2",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            },
+            {
+              "key": "panel_dashboard_3",
+              "title": "Panel Dashboard 3",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "home",
+      "title": "Home Icon",
+      "order": 1,
+      "icon": "inbox-2",
+      "icons": ["icon", "inbox2"],
+      "attributes": {
+        "class": "v-pills-home",
+        "id": "v-pills-home-tab",
+        "href": "#"
+      },
+      "caps": ["level_1", "level_2"],
+      "roles": ["admin", "guest"],
+      "submenus": [
+        {
+          "key": "dashboard",
+          "title": "Dashboard",
+          "order": 1,
+          "icon": "inbox-2",
+          "icons": ["icon", "icon-sailing-boat-water s-24"],
+          "attributes": {
+            "class": "",
+            "id": "",
+            "href": "#"
+          },
+          "caps": ["level_89", "level_0"],
+          "roles": ["admin", "guest"],
+          "submenus": [
+            {
+              "key": "panel_dashboard_1",
+              "title": "Panel Dashboard 1",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            },
+            {
+              "key": "panel_dashboard_1_RTL",
+              "title": "Panel Dashboard 1 - RTL",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            },
+            {
+              "key": "panel_dashboard_2",
+              "title": "Panel Dashboard 2",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            },
+            {
+              "key": "panel_dashboard_3",
+              "title": "Panel Dashboard 3",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "title": "New Panel",
+    "html": "New"
+  }
+}
