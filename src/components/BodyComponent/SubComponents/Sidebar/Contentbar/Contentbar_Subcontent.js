@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import data from "./ContentData";
-import jsondata from "./MenuContent.json";
+import jsondata from "../../../../../config/menu_dom_structure.json";
 import ContentMenu_Subdata from "./ContentMenu_Subdata/ContentMenu_Subdata";
 
 const Contentbar_Subcontent = ({ activedash, handleDashClick }) => {
@@ -19,17 +19,28 @@ const Contentbar_Subcontent = ({ activedash, handleDashClick }) => {
         }}
       >
         <a>
-          <i className={jsondata.menu_1.menu_icon}></i>
-          <span>{jsondata.menu_1.menu_title}</span>{" "}
+          <i
+            className={
+              jsondata.menus[0].submenus[0].icons[0] +
+              " " +
+              jsondata.menus[0].submenus[0].icons[1]
+            }
+          ></i>
+          <span>{jsondata.menus[0].submenus[0].title}</span>{" "}
           <i className=" icon-angle-left  pull-right"></i>
         </a>
 
         <ul className="treeview-menu">
-          <li>
+          {/* <li>
             <ContentMenu_Subdata
               icon={jsondata.menu_1.menu_options}
               menu_data={jsondata.menu_1.menu_options}
             />
+          </li> */}
+          <li>
+            <a href="panel-page-products.html">
+              <i className="icon icon-circle-o"></i>All Products
+            </a>
           </li>
         </ul>
       </li>

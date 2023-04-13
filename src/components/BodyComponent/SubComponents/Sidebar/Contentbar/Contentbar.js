@@ -1,5 +1,5 @@
 import Contentbar_Subcontent from "./Contentbar_Subcontent";
-import jsondata from "./MenuContent.json";
+import jsondata from "../../../../../config/menu_dom_structure.json";
 
 const Contentbar = ({ tabcontent, activedash, handleDashClick }) => {
   return (
@@ -19,11 +19,11 @@ const Contentbar = ({ tabcontent, activedash, handleDashClick }) => {
             <div className="d-flex justify-content-between align-items-center p-3">
               <div className="text-xs-center">
                 <span className="font-weight-lighter s-18">
-                  {jsondata.main_title}
+                  {jsondata.menus[0].title}
                 </span>
               </div>
               <div className="badge badge-danger r-0">
-                {jsondata.panel_title}
+                {jsondata.menus[0].panel}
               </div>
             </div>
           </div>

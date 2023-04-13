@@ -3,14 +3,14 @@ const ContentMenu_Subdata = ({ icon, menu_data }) => {
 
   return (
     <>
-      {menu_data.map((vals) => (
+      {/* {menu_data.map((vals) => (
         <li>
           <a href="index.html">
             <i className="icon icon-folder5"></i>
             {vals}
           </a>
         </li>
-      ))}
+      ))} */}
     </>
   );
 };

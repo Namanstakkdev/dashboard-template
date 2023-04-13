@@ -7,8 +7,9 @@
   },
   "menus": [
     {
-      "key": "home",
-      "title": "Home Icon",
+      "key": "",
+      "title": "Menu",
+      "panel": "New Panel",
       "order": 1,
       "icon": "inbox-2",
       "icons": ["icon", "inbox2"],
