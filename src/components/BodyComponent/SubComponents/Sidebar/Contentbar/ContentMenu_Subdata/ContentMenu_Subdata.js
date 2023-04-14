@@ -1,17 +1,12 @@
-const ContentMenu_Subdata = ({ icon, menu_data }) => {
-  console.log("menu_data from Component " + menu_data);
-
+const ContentMenu_Subdata = ({ icon, title }) => {
+  console.log("Title" + title);
   return (
-    <>
-      {/* {menu_data.map((vals) => (
-        <li>
-          <a href="index.html">
-            <i className="icon icon-folder5"></i>
-            {vals}
-          </a>
-        </li>
-      ))} */}
-    </>
+    <li>
+      <a href="index.html">
+        <i className={icon}></i>
+        {title}
+      </a>
+    </li>
   );
 };
 

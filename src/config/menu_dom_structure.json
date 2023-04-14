@@ -50,7 +50,7 @@
             {
               "key": "panel_dashboard_1_RTL",
               "title": "Panel Dashboard 1 - RTL",
-              "order": 1,
+              "order": 2,
               "icon": "icon-folder5",
               "icons": ["icon", "icon-folder5"],
               "attributes": {
@@ -62,7 +62,7 @@
             {
               "key": "panel_dashboard_2",
               "title": "Panel Dashboard 2",
-              "order": 1,
+              "order": 3,
               "icon": "icon-folder5",
               "icons": ["icon", "icon-folder5"],
               "attributes": {
@@ -74,6 +74,62 @@
             {
               "key": "panel_dashboard_3",
               "title": "Panel Dashboard 3",
+              "order": 4,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "home",
+      "title": "Home Icon",
+      "order": 1,
+      "icon": "inbox-2",
+      "icons": ["icon", "inbox2"],
+      "attributes": {
+        "class": "v-pills-home",
+        "id": "v-pills-home-tab",
+        "href": "#"
+      },
+      "caps": ["level_1", "level_2"],
+      "roles": ["admin", "guest"],
+      "submenus": [
+        {
+          "key": "products",
+          "title": "Products",
+          "order": 1,
+          "icon": "inbox-2",
+          "icons": ["icon", "icon icon-package s-24"],
+          "attributes": {
+            "class": "",
+            "id": "",
+            "href": "#"
+          },
+          "caps": ["level_89", "level_0"],
+          "roles": ["admin", "guest"],
+          "submenus": [
+            {
+              "key": "all_products",
+              "title": "All Products",
+              "order": 1,
+              "icon": "icon-folder5",
+              "icons": ["icon", "icon-folder5"],
+              "attributes": {
+                "class": "",
+                "id": "",
+                "href": "#"
+              }
+            },
+            {
+              "key": "add_new",
+              "title": "Add New",
               "order": 1,
               "icon": "icon-folder5",
               "icons": ["icon", "icon-folder5"],
@@ -102,11 +158,11 @@
       "roles": ["admin", "guest"],
       "submenus": [
         {
-          "key": "dashboard",
-          "title": "Dashboard",
+          "key": "users",
+          "title": "Users",
           "order": 1,
           "icon": "inbox-2",
-          "icons": ["icon", "icon-sailing-boat-water s-24"],
+          "icons": ["icon", "icon-account_box s-24"],
           "attributes": {
             "class": "",
             "id": "",
@@ -116,8 +172,8 @@
           "roles": ["admin", "guest"],
           "submenus": [
             {
-              "key": "panel_dashboard_1",
-              "title": "Panel Dashboard 1",
+              "key": "all_users",
+              "title": "All Users",
               "order": 1,
               "icon": "icon-folder5",
               "icons": ["icon", "icon-folder5"],
@@ -128,8 +184,8 @@
               }
             },
             {
-              "key": "panel_dashboard_1_RTL",
-              "title": "Panel Dashboard 1 - RTL",
+              "key": "add_user",
+              "title": "Add User",
               "order": 1,
               "icon": "icon-folder5",
               "icons": ["icon", "icon-folder5"],
@@ -140,20 +196,8 @@
               }
             },
             {
-              "key": "panel_dashboard_2",
-              "title": "Panel Dashboard 2",
-              "order": 1,
-              "icon": "icon-folder5",
-              "icons": ["icon", "icon-folder5"],
-              "attributes": {
-                "class": "",
-                "id": "",
-                "href": "#"
-              }
-            },
-            {
-              "key": "panel_dashboard_3",
-              "title": "Panel Dashboard 3",
+              "key": "user_profile",
+              "title": "User Profile",
               "order": 1,
               "icon": "icon-folder5",
               "icons": ["icon", "icon-folder5"],
@@ -182,11 +226,11 @@
       "roles": ["admin", "guest"],
       "submenus": [
         {
-          "key": "dashboard",
-          "title": "Dashboard",
+          "key": "inbox",
+          "title": "Inbox",
           "order": 1,
           "icon": "inbox-2",
-          "icons": ["icon", "icon-sailing-boat-water s-24"],
+          "icons": ["icon", "icon-package s-24"],
           "attributes": {
             "class": "",
             "id": "",
@@ -196,8 +240,8 @@
           "roles": ["admin", "guest"],
           "submenus": [
             {
-              "key": "panel_dashboard_1",
-              "title": "Panel Dashboard 1",
+              "key": "all_messages",
+              "title": "All Messages",
               "order": 1,
               "icon": "icon-folder5",
               "icons": ["icon", "icon-folder5"],
@@ -208,8 +252,8 @@
               }
             },
             {
-              "key": "panel_dashboard_1_RTL",
-              "title": "Panel Dashboard 1 - RTL",
+              "key": "panel7_inbox",
+              "title": "Panel7 - Inbox",
               "order": 1,
               "icon": "icon-folder5",
               "icons": ["icon", "icon-folder5"],
@@ -220,100 +264,8 @@
               }
             },
             {
-              "key": "panel_dashboard_2",
-              "title": "Panel Dashboard 2",
-              "order": 1,
-              "icon": "icon-folder5",
-              "icons": ["icon", "icon-folder5"],
-              "attributes": {
-                "class": "",
-                "id": "",
-                "href": "#"
-              }
-            },
-            {
-              "key": "panel_dashboard_3",
-              "title": "Panel Dashboard 3",
-              "order": 1,
-              "icon": "icon-folder5",
-              "icons": ["icon", "icon-folder5"],
-              "attributes": {
-                "class": "",
-                "id": "",
-                "href": "#"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "home",
-      "title": "Home Icon",
-      "order": 1,
-      "icon": "inbox-2",
-      "icons": ["icon", "inbox2"],
-      "attributes": {
-        "class": "v-pills-home",
-        "id": "v-pills-home-tab",
-        "href": "#"
-      },
-      "caps": ["level_1", "level_2"],
-      "roles": ["admin", "guest"],
-      "submenus": [
-        {
-          "key": "dashboard",
-          "title": "Dashboard",
-          "order": 1,
-          "icon": "inbox-2",
-          "icons": ["icon", "icon-sailing-boat-water s-24"],
-          "attributes": {
-            "class": "",
-            "id": "",
-            "href": "#"
-          },
-          "caps": ["level_89", "level_0"],
-          "roles": ["admin", "guest"],
-          "submenus": [
-            {
-              "key": "panel_dashboard_1",
-              "title": "Panel Dashboard 1",
-              "order": 1,
-              "icon": "icon-folder5",
-              "icons": ["icon", "icon-folder5"],
-              "attributes": {
-                "class": "",
-                "id": "",
-                "href": "#"
-              }
-            },
-            {
-              "key": "panel_dashboard_1_RTL",
-              "title": "Panel Dashboard 1 - RTL",
-              "order": 1,
-              "icon": "icon-folder5",
-              "icons": ["icon", "icon-folder5"],
-              "attributes": {
-                "class": "",
-                "id": "",
-                "href": "#"
-              }
-            },
-            {
-              "key": "panel_dashboard_2",
-              "title": "Panel Dashboard 2",
-              "order": 1,
-              "icon": "icon-folder5",
-              "icons": ["icon", "icon-folder5"],
-              "attributes": {
-                "class": "",
-                "id": "",
-                "href": "#"
-              }
-            },
-            {
-              "key": "panel_dashboard_3",
-              "title": "Panel Dashboard 3",
+              "key": "panel8_inbox",
+              "title": "Panel8 - Inbox",
               "order": 1,
               "icon": "icon-folder5",
               "icons": ["icon", "icon-folder5"],

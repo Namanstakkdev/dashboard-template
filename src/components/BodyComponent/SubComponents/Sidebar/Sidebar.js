@@ -6,15 +6,10 @@ import Contentbar from "./Contentbar/Contentbar";
 function Sidebar({ navbar }) {
   const [activenav, setActiveNav] = useState("v-pills-home-tab");
   const [tabcontent, setTabContent] = useState("v-pills-home");
-  const [activedash, setActivedash] = useState("");
 
   const handleClick = (navdata, tabdata) => {
     setActiveNav(navdata);
     setTabContent(tabdata);
-  };
-
-  const handleDashClick = (data) => {
-    setActivedash(data);
   };
 
   return (
@@ -51,8 +46,6 @@ function Sidebar({ navbar }) {
             {navbar ? (
               <Contentbar
                 tabcontent={tabcontent}
-                activedash={activedash}
-                handleDashClick={handleDashClick}
               />
             ) : null}
           </div>
