@@ -38,27 +38,20 @@ const Contentbar_Subcontent = () => {
             />
 
             <ul className="treeview-menu">
-              {/* {data.submenus.map((submenu_data, index) => {
-                submenu_data.submenus.map((data2) => {
-                  return (
+
+              {data.submenus.map((submenu_data, index) => (
+                <>
+                  {submenu_data.submenus.map((data2) => (
                     <ContentMenu_Subdata
                       key={index}
                       icon={data2.icons[0] + " " + data2.icons[1]}
                       title={data2.title}
                     />
-                  );
-                });
-              })} */}
-              {jsondata.menus[serial_id].submenus.map((data) => {
-                data.submenus.map((data, index) => {
-                  <ContentMenu_Subdata
-                    key={index}
-                    icon={data.icons[0] + " " + data.icons[1]}
-                    title={data.title}
-                  />;
-                });
-              })}
-              <li>
+                  ))};
+                </>
+              ))}
+
+              {/* <li>
                 <a href="panel-page-products.html">
                   <i class="icon icon-circle-o"></i>All Products
                 </a>
@@ -67,7 +60,7 @@ const Contentbar_Subcontent = () => {
                 <a href="panel-page-products-create.html">
                   <i class="icon icon-add"></i>Add New{" "}
                 </a>
-              </li>
+              </li> */}
             </ul>
           </li>
         );

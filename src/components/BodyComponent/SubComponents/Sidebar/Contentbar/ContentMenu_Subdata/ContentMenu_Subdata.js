@@ -1,7 +1,8 @@
-const ContentMenu_Subdata = ({ icon, title }) => {
-  console.log("Title" + title);
+import { useEffect, useState } from "react";
+
+const ContentMenu_Subdata = ({ key, icon, title }) => {
   return (
-    <li>
+    <li key={key}>
       <a href="index.html">
         <i className={icon}></i>
         {title}
